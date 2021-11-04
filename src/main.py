@@ -3,18 +3,18 @@ import sys
 
 from PySide2 import QtWidgets
 
-from src.Domain.data_loader import DataLoader
-from src.Domain.npc import Npc
+from src.data_loader import DataLoader
+from src.npc import Npc
 
 
-class PnjGenerator(QtWidgets.QWidget):
+class MainWindow(QtWidgets.QWidget):
     def __init__(self, settings, parent=None):
-        super(PnjGenerator, self).__init__(parent=parent)
+        super(MainWindow, self).__init__(parent=parent)
         self.generated_values = {}
         self.data_loader = DataLoader(settings)
         self.npc = Npc.create_random(self.data_loader)
 
-        self.setWindowTitle('Pnj Generator')
+        self.setWindowTitle('NPyC Generator')
         self.resize(800, 600)
 
         self.physical_widget = QtWidgets.QLabel(self.npc.get_physical_description())
@@ -71,7 +71,7 @@ def main():
     with open("./settings.json", encoding='utf-8') as json_data_file:
         config = json.load(json_data_file)
     app = QtWidgets.QApplication(sys.argv)
-    pnj_generator = PnjGenerator(config)
+    pnj_generator = MainWindow(config)
     pnj_generator.show()
     sys.exit(app.exec_())
 

@@ -1,0 +1,112 @@
+[
+    {
+      "min": 0,
+      "max": 15,
+      "value": "assez court"
+    },
+    {
+      "min": 16,
+      "max": 18,
+      "value": "au bol"
+    },
+    {
+      "min": 19,
+      "max": 22,
+      "value": "au carré"
+    },
+    {
+      "min": 23,
+      "max": 30,
+      "value": "bouclé"
+    },
+    {
+      "min": 31,
+      "max": 32,
+      "value": "cassants"
+    },
+    {
+      "min": 33,
+      "max": 42,
+      "value": "chauve"
+    },
+    {
+      "min": 43,
+      "max": 43,
+      "value": "chignon"
+    },
+    {
+      "min": 44,
+      "max": 50,
+      "value": "court"
+    },
+    {
+      "min": 51,
+      "max": 51,
+      "value": "crêtes"
+    },
+    {
+      "min": 52,
+      "max": 52,
+      "value": "dreadlocks"
+    },
+    {
+      "min": 53,
+      "max": 58,
+      "value": "en bataille"
+    },
+    {
+      "min": 59,
+      "max": 60,
+      "value": "fins"
+    },
+    {
+      "min": 61,
+      "max": 63,
+      "value": "frisé"
+    },
+    {
+      "min": 64,
+      "max": 70,
+      "value": "long"
+    },
+    {
+      "min": 71,
+      "max": 73,
+      "value": "mi-long"
+    },
+    {
+      "min": 74,
+      "max": 74,
+      "value": "mise en plis"
+    },
+    {
+      "min": 75,
+      "max": 78,
+      "value": "queue de cheval"
+    },
+    {
+      "min": 79,
+      "max": 80,
+      "value": "raide"
+    },
+    {
+      "min": 81,
+      "max": 90,
+      "value": "rasé"
+    },
+    {
+      "min": 91,
+      "max": 91,
+      "value": "secs"
+    },
+    {
+      "min": 92,
+      "max": 95,
+      "value": "très long"
+    },
+    {
+      "min": 96,
+      "max": 100,
+      "value": "tresses"
+    }
+  ]

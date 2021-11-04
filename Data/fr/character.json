@@ -1,0 +1,82 @@
+[
+    {
+      "min": 0,
+      "max": 10,
+      "value": "accueillant"
+    },
+    {
+      "min": 11,
+      "max": 14,
+      "value": "antipathique"
+    },
+    {
+      "min": 15,
+      "max": 19,
+      "value": "embarrassé"
+    },
+    {
+      "min": 20,
+      "max": 25,
+      "value": "fier"
+    },
+    {
+      "min": 26,
+      "max": 33,
+      "value": "froid"
+    },
+    {
+      "min": 34,
+      "max": 37,
+      "value": "gauche"
+    },
+    {
+      "min": 38,
+      "max": 42,
+      "value": "glacial"
+    },
+    {
+      "min": 42,
+      "max": 50,
+      "value": "hautain"
+    },
+    {
+      "min": 51,
+      "max": 59,
+      "value": "hostile"
+    },
+    {
+      "min": 60,
+      "max": 65,
+      "value": "modeste"
+    },
+    {
+      "min": 66,
+      "max": 70,
+      "value": "rébarbatif"
+    },
+    {
+      "min": 71,
+      "max": 74,
+      "value": "résolu"
+    },
+    {
+      "min": 75,
+      "max": 80,
+      "value": "souriant"
+    },
+    {
+      "min": 81,
+      "max": 85,
+      "value": "sûr de lui"
+    },
+    {
+      "min": 86,
+      "max": 94,
+      "value": "sympathique"
+    },
+    {
+      "min": 95,
+      "max": 100,
+      "value": "timide"
+    }
+  ]

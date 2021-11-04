@@ -1,0 +1,117 @@
+[
+    {
+      "min": 0,
+      "max": 3,
+      "value": "acajou"
+    },
+    {
+      "min": 4,
+      "max": 10,
+      "value": "basané"
+    },
+    {
+      "min": 11,
+      "max": 13,
+      "value": "blafard"
+    },
+    {
+      "min": 14,
+      "max": 15,
+      "value": "blême"
+    },
+    {
+      "min": 16,
+      "max": 20,
+      "value": "bronzé"
+    },
+    {
+      "min": 21,
+      "max": 25,
+      "value": "brun"
+    },
+    {
+      "min": 26,
+      "max": 27,
+      "value": "bruni"
+    },
+    {
+      "min": 28,
+      "max": 30,
+      "value": "caramel"
+    },
+    {
+      "min": 31,
+      "max": 31,
+      "value": "cireux"
+    },
+    {
+      "min": 32,
+      "max": 40,
+      "value": "clair"
+    },
+    {
+      "min": 41,
+      "max": 43,
+      "value": "coloré"
+    },
+    {
+      "min": 44,
+      "max": 44,
+      "value": "cramoisi"
+    },
+    {
+      "min": 45,
+      "max": 50,
+      "value": "dorée"
+    },
+    {
+      "min": 51,
+      "max": 58,
+      "value": "éclatant"
+    },
+    {
+      "min": 59,
+      "max": 65,
+      "value": "frais"
+    },
+    {
+      "min": 66,
+      "max": 69,
+      "value": "hâlé"
+    },
+    {
+      "min": 70,
+      "max": 71,
+      "value": "jaunâtre"
+    },
+    {
+      "min": 72,
+      "max": 73,
+      "value": "livide"
+    },
+    {
+      "min": 74,
+      "max": 78,
+      "value": "lumineux"
+    },
+    {
+      "min": 79,
+      "max": 86,
+      "value": "pâle"
+    },
+    {
+      "min": 87,
+      "max": 95,
+      "value": "rose"
+    },
+    {
+      "min": 96,
+      "max": 99,
+      "value": "rougeaud"
+    },
+    {
+      "min": 100,
+      "max": 100,
+      "value": "terreux"
+    }
+  ]

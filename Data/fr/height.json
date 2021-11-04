@@ -1,0 +1,42 @@
+[
+    {
+      "min": 0,
+      "max": 3,
+      "value": "gigantesque"
+    },
+    {
+      "min": 4,
+      "max": 20,
+      "value": "grand"
+    },
+    {
+      "min": 21,
+      "max": 23,
+      "value": "minuscule"
+    },
+    {
+      "min": 24,
+      "max": 25,
+      "value": "nain"
+    },
+    {
+      "min": 25,
+      "max": 75,
+      "value": "normal"
+    },
+    {
+      "min": 76,
+      "max": 88,
+      "value": "petit"
+    },
+    {
+      "min": 89,
+      "max": 95,
+      "value": "plutôt petit"
+    },
+    {
+      "min": 96,
+      "max": 100,
+      "value": "très grand"
+    }
+  ]

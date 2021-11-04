@@ -1,0 +1,37 @@
+[
+    {
+      "min": 0,
+      "max": 10,
+      "value": "en cœur"
+    },
+    {
+      "min": 11,
+      "max": 29,
+      "value": "étroite"
+    },
+    {
+      "min": 30,
+      "max": 41,
+      "value": "expressive"
+    },
+    {
+      "min": 42,
+      "max": 69,
+      "value": "large"
+    },
+    {
+      "min": 70,
+      "max": 80,
+      "value": "pincée"
+    },
+    {
+      "min": 81,
+      "max": 90,
+      "value": "rieuse"
+    },
+    {
+      "min": 91,
+      "max": 100,
+      "value": "sensuelle"
+    }
+  ]

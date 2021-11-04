@@ -1,0 +1,20 @@
+{
+  "base_path": "./Data",
+  "language": "fr",
+  "physique": [
+    "sex",
+    "weight",
+    "height",
+    "skin_tone",
+    "head",
+    "front",
+    "nose",
+    "mouth",
+    "teeth",
+    "lips",
+    "haircut"
+  ],
+  "aspect": [
+    "character"
+  ]
+}

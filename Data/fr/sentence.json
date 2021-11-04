@@ -1,0 +1,19 @@
+{
+  "description": {
+    "homme": "trucmuch est {} et {}. Il a le teint {}",
+    "femme": "trucmuchette est {} et {}. Elle a le teint {}"
+  },
+  "hair": {
+    "homme": "Il a des cheveux {}.",
+    "femme": "Elle a des cheveux {}."
+  },
+  "head": {
+    "homme": "Il a une tête {}, un front {} et un nez {}.",
+    "femme": "Elle a une tête {}, un front {} et un nez {}."
+  },
+  "mouth": {
+    "homme": "Il a une bouche {} avec des lêvres {} et des dents {}.",
+    "femme": "Elle a une bouche {} avec des lêvres {} et des dents {}."
+  }
+
+}

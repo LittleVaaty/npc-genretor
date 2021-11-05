@@ -1,6 +1,6 @@
 {
   "description": {
-    "value": "{sex} est {height} et {weight}. Il a le teint {skin_tone}",
+    "value": "{MajPro} est {height} et {weight}. {MajPro} a le teint {skin_tone}",
     "dependencies" :[
       "height",
       "weight",
@@ -9,14 +9,14 @@
     ]
   },
   "hair": {
-    "value": "{sex} a des cheveux {haircut}.",
+    "value": "{MajPro} a des cheveux {haircut}.",
     "dependencies": [
       "haircut",
       "sex"
     ]
   },
   "head": {
-    "value": "{sex} a une tête {head}, un front {front} et un nez {nose}.",
+    "value": "{MajPro} a une tête {head}, un front {front} et un nez {nose}.",
     "dependencies" :[
       "head",
       "front",
@@ -25,7 +25,7 @@
     ]
   },
   "mouth": {
-    "value": "{sex} a une bouche {mouth} avec des lêvres {lips} et des dents {teeth}.",
+    "value": "{MajPro} a une bouche {mouth} avec des lêvres {lips} et des dents {teeth}.",
     "dependencies" :[
       "mouth",
       "lips",

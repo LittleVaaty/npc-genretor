@@ -1,32 +1,26 @@
 [
-    {
-      "min": 0,
-      "max": 10,
-      "value": "arrondies"
-    },
-    {
-      "min": 11,
-      "max": 35,
-      "value": "charnues"
-    },
-    {
-      "min": 36,
-      "max": 55,
-      "value": "fines"
-    },
-    {
-      "min": 56,
-      "max": 75,
-      "value": "plates"
-    },
-    {
-      "min": 76,
-      "max": 85,
-      "value": "proéminente"
-    },
-    {
-      "min": 86,
-      "max": 100,
-      "value": "pulpeuse"
-    }
-  ]
+  {
+    "weight": 10,
+    "value": "arrondies"
+  },
+  {
+    "weight": 15,
+    "value": "charnues"
+  },
+  {
+    "weight": 20,
+    "value": "fines"
+  },
+  {
+    "weight": 20,
+    "value": "plates"
+  },
+  {
+    "weight": 15,
+    "value": "proéminente"
+  },
+  {
+    "weight": 15,
+    "value": "pulpeuse"
+  }
+]

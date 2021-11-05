@@ -1,42 +1,34 @@
 [
     {
-      "min": 0,
-      "max": 3,
+      "weight": 3,
       "value": "gigantesque"
     },
     {
-      "min": 4,
-      "max": 20,
+      "weight": 16,
       "value": "grand"
     },
     {
-      "min": 21,
-      "max": 23,
+      "weight": 2,
       "value": "minuscule"
     },
     {
-      "min": 24,
-      "max": 25,
+      "weight": 1,
       "value": "nain"
     },
     {
-      "min": 25,
-      "max": 75,
+      "weight": 50,
       "value": "normal"
     },
     {
-      "min": 76,
-      "max": 88,
+      "weight": 12,
       "value": "petit"
     },
     {
-      "min": 89,
-      "max": 95,
+      "weight": 6,
       "value": "plutôt petit"
     },
     {
-      "min": 96,
-      "max": 100,
+      "weight": 4,
       "value": "très grand"
     }
   ]

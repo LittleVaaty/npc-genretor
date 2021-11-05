@@ -21,6 +21,8 @@ class MainWindow(QtWidgets.QWidget):
         self.physical_widget.setWordWrap(True)
         self.character_widget = QtWidgets.QLabel(self.npc.get_character_description())
         self.character_widget.setWordWrap(True)
+        self.plothook_widget = QtWidgets.QLabel(self.npc.get_plot_hook())
+        self.plothook_widget.setWordWrap(True)
         self.generate_btn = QtWidgets.QPushButton('Generate (㇏(•̀ᵥᵥ•́)ノ)')
         self.export_btn = QtWidgets.QPushButton('Export')
 
@@ -29,7 +31,8 @@ class MainWindow(QtWidgets.QWidget):
 
     def _set_layout(self):
         main_layout = QtWidgets.QVBoxLayout()
-        hor_layout = QtWidgets.QHBoxLayout()
+        hor_layout1 = QtWidgets.QHBoxLayout()
+        hor_layout2 = QtWidgets.QHBoxLayout()
 
         # Physique
         physical_grp_cont_widget = QtWidgets.QGroupBox('Physique')
@@ -43,10 +46,19 @@ class MainWindow(QtWidgets.QWidget):
         character_grp_cont_widget.setLayout(character_grp_cont_layout)
         character_grp_cont_layout.addWidget(self.character_widget)
 
-        hor_layout.addWidget(physical_grp_cont_widget)
-        hor_layout.addWidget(character_grp_cont_widget)
+        # Plot hook
+        plothook_grp_cont_widget = QtWidgets.QGroupBox('Plot Hook')
+        plothook_grp_cont_layout = QtWidgets.QVBoxLayout()
+        plothook_grp_cont_widget.setLayout(plothook_grp_cont_layout)
+        plothook_grp_cont_layout.addWidget(self.plothook_widget)
 
-        main_layout.addLayout(hor_layout)
+        hor_layout1.addWidget(physical_grp_cont_widget)
+        hor_layout1.addWidget(character_grp_cont_widget)
+
+        hor_layout2.addWidget(plothook_grp_cont_widget)
+
+        main_layout.addLayout(hor_layout1)
+        main_layout.addLayout(hor_layout2)
         main_layout.addWidget(self.generate_btn)
         main_layout.addWidget(self.export_btn)
         self.setLayout(main_layout)
@@ -59,6 +71,7 @@ class MainWindow(QtWidgets.QWidget):
         self.npc = Npc.create_random(self.data_loader)
         self.physical_widget.setText(self.npc.get_physical_description())
         self.character_widget.setText(self.npc.get_character_description())
+        self.plothook_widget.setText(self.npc.get_plot_hook())
 
     def export(self):
         filename = QtWidgets.QFileDialog.getSaveFileName(self, "Save file", "", ".json")

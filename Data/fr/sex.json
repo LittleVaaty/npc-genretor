@@ -1,10 +1,15 @@
 [
   {
     "weight": 1,
-    "value": "homme"
+    "value": "homme",
+    "additional_keys" : {
+      "MajPro": "Il"
+    }
   },
   {
     "weight": 1,
-    "value": "femme"
+    "value": "femme",
+    "additional_keys" :
+      {"MajPro": "Elle"}
   }
 ]

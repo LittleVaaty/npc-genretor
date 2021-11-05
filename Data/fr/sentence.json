@@ -32,5 +32,11 @@
       "teeth",
       "sex"
     ]
+  },
+  "plot_hook": {
+    "value" : "{plot_hook}",
+    "dependencies": [
+      "plot_hook"
+    ]
   }
 }

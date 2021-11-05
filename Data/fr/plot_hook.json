@@ -24,7 +24,7 @@
     "weight": 2
   },
   {
-    "value": "Le personage cherche sa {} perdue",
+    "value": "{MajPro} cherche sa {relationship} perdue",
     "weight": 2,
     "dependencies":["relationship"]
   }

@@ -1,42 +1,34 @@
 [
-    {
-      "min": 0,
-      "max": 8,
-      "value": "bosselée"
-    },
-    {
-      "min": 9,
-      "max": 13,
-      "value": "carrée"
-    },
-    {
-      "min": 14,
-      "max": 40,
-      "value": "classique"
-    },
-    {
-      "min": 41,
-      "max": 60,
-      "value": "ovale"
-    },
-    {
-      "min": 61,
-      "max": 65,
-      "value": "rectangulaire"
-    },
-    {
-      "min": 66,
-      "max": 85,
-      "value": "ronde"
-    },
-    {
-      "min": 86,
-      "max": 94,
-      "value": "triangulaire"
-    },
-    {
-      "min": 95,
-      "max": 100,
-      "value": "triangulaire inversée"
-    }
-  ]
+  {
+    "weight": 8,
+    "value": "bosselée"
+  },
+  {
+    "weight": 4,
+    "value": "carrée"
+  },
+  {
+    "weight": 26,
+    "value": "classique"
+  },
+  {
+    "weight": 20,
+    "value": "ovale"
+  },
+  {
+    "weight": 4,
+    "value": "rectangulaire"
+  },
+  {
+    "weight": 15,
+    "value": "ronde"
+  },
+  {
+    "weight": 10,
+    "value": "triangulaire"
+  },
+  {
+    "weight": 5,
+    "value": "triangulaire inversée"
+  }
+]

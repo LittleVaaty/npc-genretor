@@ -1,47 +1,38 @@
 [
-    {
-      "min": 0,
-      "max": 8,
-      "value": "léger surpoids"
-    },
-    {
-      "min": 9,
-      "max": 18,
-      "value": "maigre"
-    },
-    {
-      "min": 19,
-      "max": 60,
-      "value": "normal"
-    },
-    {
-      "min": 61,
-      "max": 64,
-      "value": "obèse"
-    },
-    {
-      "min": 65,
-      "max": 66,
-      "value": "obésité morbide"
-    },
-    {
-      "min": 66,
-      "max": 85,
-      "value": "plutôt fin"
-    },
-    {
-      "min": 86,
-      "max": 88,
-      "value": "rachitique"
-    },
-    {
-      "min": 89,
-      "max": 90,
-      "value": "squelettique"
-    },
-    {
-      "min": 91,
-      "max": 100,
-      "value": "surpoids"
-    }
-  ]
+  {
+    "value": "léger surpoids",
+    "weight": 8
+  },
+  {
+    "value": "maigre",
+    "weight": 9
+  },
+  {
+    "value": "normal",
+    "weight": 41
+  },
+  {
+    "value": "obèse",
+    "weight": 3
+  },
+  {
+    "value": "obésité morbide",
+    "weight": 1
+  },
+  {
+    "value": "plutôt fin",
+    "weight": 19
+  },
+  {
+    "value": "rachitique",
+    "weight": 2
+  },
+  {
+    "value": "squelettique",
+    "weight": 1
+  },
+  {
+    "value": "surpoids",
+    "weight": 9
+  }
+]

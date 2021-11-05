@@ -1,115 +1,94 @@
 [
     {
-      "min": 0,
-      "max": 3,
+      "weight": 2,
       "value": "acajou"
     },
     {
-      "min": 4,
-      "max": 10,
+      "weight": 6,
       "value": "basané"
     },
     {
-      "min": 11,
-      "max": 13,
+      "weight": 2,
       "value": "blafard"
     },
     {
-      "min": 14,
-      "max": 15,
+      "weight": 1,
       "value": "blême"
     },
     {
-      "min": 16,
-      "max": 20,
+      "weight": 4,
       "value": "bronzé"
     },
     {
-      "min": 21,
-      "max": 25,
+      "weight": 4,
       "value": "brun"
     },
     {
-      "min": 26,
-      "max": 27,
+      "weight": 1,
       "value": "bruni"
     },
     {
-      "min": 28,
-      "max": 30,
+      "weight": 2,
       "value": "caramel"
     },
     {
-      "min": 31,
-      "max": 31,
+      "weight": 1,
       "value": "cireux"
     },
     {
-      "min": 32,
-      "max": 40,
+      "weight": 8,
       "value": "clair"
     },
     {
-      "min": 41,
-      "max": 43,
+      "weight": 2,
       "value": "coloré"
     },
     {
-      "min": 44,
-      "max": 44,
+      "weight": 1,
       "value": "cramoisi"
     },
     {
-      "min": 45,
-      "max": 50,
+      "weight": 5,
       "value": "dorée"
     },
     {
-      "min": 51,
-      "max": 58,
+      "weight": 7,
       "value": "éclatant"
     },
     {
-      "min": 59,
-      "max": 65,
+      "weight": 6,
       "value": "frais"
     },
     {
-      "min": 66,
-      "max": 69,
+      "weight": 3,
       "value": "hâlé"
     },
     {
-      "min": 70,
-      "max": 71,
+      "weight": 1,
       "value": "jaunâtre"
     },
     {
-      "min": 72,
-      "max": 73,
+      "weight": 1,
       "value": "livide"
     },
     {
-      "min": 74,
-      "max": 78,
+      "weight": 4,
       "value": "lumineux"
     },
     {
-      "min": 79,
-      "max": 86,
+      "weight": 7,
       "value": "pâle"
     },
     {
-      "min": 87,
-      "max": 95,
+      "weight": 8,
       "value": "rose"
     },
     {
-      "min": 96,
-      "max": 99,
+      "weight": 3,
       "value": "rougeaud"
     },
     {
+      "weight": 1,
       "min": 100,
       "max": 100,
       "value": "terreux"

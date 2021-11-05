@@ -1,57 +1,46 @@
 [
-    {
-      "min": 0,
-      "max": 3,
-      "value": "concave"
-    },
-    {
-      "min": 4,
-      "max": 9,
-      "value": "crochu"
-    },
-    {
-      "min": 10,
-      "max": 30,
-      "value": "droit"
-    },
-    {
-      "min": 31,
-      "max": 45,
-      "value": "fin"
-    },
-    {
-      "min": 46,
-      "max": 55,
-      "value": "gros"
-    },
-    {
-      "min": 56,
-      "max": 60,
-      "value": "grosses narines"
-    },
-    {
-      "min": 61,
-      "max": 66,
-      "value": "nubien"
-    },
-    {
-      "min": 67,
-      "max": 78,
-      "value": "petit"
-    },
-    {
-      "min": 79,
-      "max": 83,
-      "value": "plat"
-    },
-    {
-      "min": 84,
-      "max": 90,
-      "value": "retroussé"
-    },
-    {
-      "min": 91,
-      "max": 100,
-      "value": "tordu"
-    }
-  ]
+  {
+    "weight": 3,
+    "value": "concave"
+  },
+  {
+    "weight": 5,
+    "value": "crochu"
+  },
+  {
+    "weight": 20,
+    "value": "droit"
+  },
+  {
+    "weight": 14,
+    "value": "fin"
+  },
+  {
+    "weight": 9,
+    "value": "gros"
+  },
+  {
+    "weight": 4,
+    "value": "grosses narines"
+  },
+  {
+    "weight": 6,
+    "value": "nubien"
+  },
+  {
+    "weight": 11,
+    "value": "petit"
+  },
+  {
+    "weight": 4,
+    "value": "plat"
+  },
+  {
+    "weight": 6,
+    "value": "retroussé"
+  },
+  {
+    "weight": 9,
+    "value": "tordu"
+  }
+]

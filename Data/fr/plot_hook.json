@@ -6,5 +6,26 @@
   {
     "value": "Le personage a récemment obtenu une carte d'un grand trésor.",
     "weight": 2
+  },
+  {
+    "value": "Le personage a récemment obtenu une carte d'une civilisation ancienne et oubliée.",
+    "weight": 2
+  },
+  {
+    "value": "La maison a été récemment incendiée par un mystérieux incendie.",
+    "weight": 2
+  },
+  {
+    "value": "La maison a été récemment détruite par un mystérieux tremblement de terre.",
+    "weight": 2
+  },
+  {
+    "value": "La maison a été récemment détruite par une mystérieuse tornade.",
+    "weight": 2
+  },
+  {
+    "value": "Le personage cherche sa {} perdue",
+    "weight": 2,
+    "dependencies":["relationship"]
   }
 ]

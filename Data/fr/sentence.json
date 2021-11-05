@@ -1,18 +1,36 @@
 {
   "description": {
-    "homme": "trucmuch est {} et {}. Il a le teint {}",
-    "femme": "trucmuchette est {} et {}. Elle a le teint {}"
+    "value": "{sex} est {height} et {weight}. Il a le teint {skin_tone}",
+    "dependencies" :[
+      "height",
+      "weight",
+      "skin_tone",
+      "sex"
+    ]
   },
   "hair": {
-    "homme": "Il a des cheveux {}.",
-    "femme": "Elle a des cheveux {}."
+    "value": "{sex} a des cheveux {haircut}.",
+    "dependencies": [
+      "haircut",
+      "sex"
+    ]
   },
   "head": {
-    "homme": "Il a une tête {}, un front {} et un nez {}.",
-    "femme": "Elle a une tête {}, un front {} et un nez {}."
+    "value": "{sex} a une tête {head}, un front {front} et un nez {nose}.",
+    "dependencies" :[
+      "head",
+      "front",
+      "nose",
+      "sex"
+    ]
   },
   "mouth": {
-    "homme": "Il a une bouche {} avec des lêvres {} et des dents {}.",
-    "femme": "Elle a une bouche {} avec des lêvres {} et des dents {}."
+    "value": "{sex} a une bouche {mouth} avec des lêvres {lips} et des dents {teeth}.",
+    "dependencies" :[
+      "mouth",
+      "lips",
+      "teeth",
+      "sex"
+    ]
   }
 }

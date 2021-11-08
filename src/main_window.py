@@ -1,10 +1,8 @@
-import json
-import sys
-
 from PySide2 import QtWidgets
 
 from src.data_loader import DataLoader
 from src.npc import Npc
+from src.text_exporter import TextExporter
 
 
 class MainWindow(QtWidgets.QWidget):
@@ -13,6 +11,7 @@ class MainWindow(QtWidgets.QWidget):
         self.generated_values = {}
         self.data_loader = DataLoader(settings)
         self.npc = None
+        self.text_exporter = TextExporter()
 
         self.setWindowTitle('NPyC Generator')
         self.resize(800, 600)
@@ -85,7 +84,8 @@ class MainWindow(QtWidgets.QWidget):
         self.relationships_widget.setText(self.npc.get_relationships())
 
     def export(self):
-        filename = QtWidgets.QFileDialog.getSaveFileName(self, "Save file", "", ".json")
-        filename = "%s%s" % (filename[0], filename[1])
-        with open(filename, 'w',  encoding='utf-8') as outfile:
-            json.dump(self.generated_values, outfile, ensure_ascii=False, indent=2)
+        filename, _filter = QtWidgets.QFileDialog.getSaveFileName(self, "Save file", "", ".txt")
+        if not filename.endswith(".txt"):
+            filename = f"{filename}.txt"
+        self.text_exporter.export(self.npc, filename)
+

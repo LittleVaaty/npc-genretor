@@ -38,5 +38,12 @@
     "dependencies": [
       "plot_hook"
     ]
+  },
+  "personality": {
+   "value" : "{MajPro} est de caractère {character}",
+    "dependencies": [
+      "character",
+      "sex"
+    ]
   }
 }
